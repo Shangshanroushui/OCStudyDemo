@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6496195EA81C20CCF547CB79 /* libPods-OCStudyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC17315F84A671E2003D0ED /* libPods-OCStudyDemo.a */; };
+		702C8827207EF1A700903EC1 /* OCSDBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 702C8826207EF1A700903EC1 /* OCSDBaseVC.m */; };
+		702C882A207EF21D00903EC1 /* OCSDBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702C8829207EF21D00903EC1 /* OCSDBaseTabBarController.m */; };
+		702C882D207EF25900903EC1 /* OCSDBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702C882C207EF25900903EC1 /* OCSDBaseNavController.m */; };
+		702C8832207EFAE200903EC1 /* OCSDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 702C8831207EFAE100903EC1 /* OCSDBaseModel.m */; };
+		702C8835207EFB3600903EC1 /* OCSDBaseContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 702C8834207EFB3600903EC1 /* OCSDBaseContainerVC.m */; };
+		702C8838207EFE9E00903EC1 /* OCSDNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702C8837207EFE9E00903EC1 /* OCSDNavController.m */; };
+		702C883B207EFEDC00903EC1 /* OCSDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702C883A207EFEDC00903EC1 /* OCSDTabBarController.m */; };
 		70C3FEC02076709800E7B9F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C3FEBF2076709800E7B9F6 /* AppDelegate.m */; };
-		70C3FEC32076709800E7B9F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C3FEC22076709800E7B9F6 /* ViewController.m */; };
 		70C3FEC62076709800E7B9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C3FEC42076709800E7B9F6 /* Main.storyboard */; };
 		70C3FEC82076709800E7B9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C3FEC72076709800E7B9F6 /* Assets.xcassets */; };
 		70C3FECB2076709800E7B9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C3FEC92076709800E7B9F6 /* LaunchScreen.storyboard */; };
@@ -37,11 +43,28 @@
 
 /* Begin PBXFileReference section */
 		0ABF94D969B0DD92E6DCC5E7 /* Pods-OCStudyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStudyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCStudyDemo/Pods-OCStudyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		702C8825207EF1A700903EC1 /* OCSDBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSDBaseVC.h; sourceTree = "<group>"; };
+		702C8826207EF1A700903EC1 /* OCSDBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSDBaseVC.m; sourceTree = "<group>"; };
+		702C8828207EF21D00903EC1 /* OCSDBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSDBaseTabBarController.h; sourceTree = "<group>"; };
+		702C8829207EF21D00903EC1 /* OCSDBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSDBaseTabBarController.m; sourceTree = "<group>"; };
+		702C882B207EF25900903EC1 /* OCSDBaseNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSDBaseNavController.h; sourceTree = "<group>"; };
+		702C882C207EF25900903EC1 /* OCSDBaseNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSDBaseNavController.m; sourceTree = "<group>"; };
+		702C882F207EF7DC00903EC1 /* OCStudyPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCStudyPrefixHeader.pch; sourceTree = "<group>"; };
+		702C8830207EFAE100903EC1 /* OCSDBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSDBaseModel.h; sourceTree = "<group>"; };
+		702C8831207EFAE100903EC1 /* OCSDBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSDBaseModel.m; sourceTree = "<group>"; };
+		702C8833207EFB3600903EC1 /* OCSDBaseContainerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSDBaseContainerVC.h; sourceTree = "<group>"; };
+		702C8834207EFB3600903EC1 /* OCSDBaseContainerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSDBaseContainerVC.m; sourceTree = "<group>"; };
+		702C8836207EFE9E00903EC1 /* OCSDNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSDNavController.h; sourceTree = "<group>"; };
+		702C8837207EFE9E00903EC1 /* OCSDNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSDNavController.m; sourceTree = "<group>"; };
+		702C8839207EFEDC00903EC1 /* OCSDTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSDTabBarController.h; sourceTree = "<group>"; };
+		702C883A207EFEDC00903EC1 /* OCSDTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSDTabBarController.m; sourceTree = "<group>"; };
+		702C883D207F031F00903EC1 /* APPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPMacros.h; sourceTree = "<group>"; };
+		702C883E207F037100903EC1 /* NotificationMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacros.h; sourceTree = "<group>"; };
+		702C883F207F039600903EC1 /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		702C8840207F042C00903EC1 /* ColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacros.h; sourceTree = "<group>"; };
 		70C3FEBB2076709800E7B9F6 /* OCStudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCStudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C3FEBE2076709800E7B9F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70C3FEBF2076709800E7B9F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		70C3FEC12076709800E7B9F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		70C3FEC22076709800E7B9F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		70C3FEC52076709800E7B9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70C3FEC72076709800E7B9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70C3FECA2076709800E7B9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,6 +116,8 @@
 		70035785207C556B00F9449D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				702C8823207EF16B00903EC1 /* Base */,
+				702C8824207EF17400903EC1 /* Index */,
 				70035784207C552500F9449D /* Graph */,
 			);
 			path = Main;
@@ -112,15 +137,18 @@
 		70035787207C561B00F9449D /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				70C3FECC2076709800E7B9F6 /* Info.plist */,
 				70C3FEBE2076709800E7B9F6 /* AppDelegate.h */,
 				70C3FEBF2076709800E7B9F6 /* AppDelegate.m */,
-				70C3FEC12076709800E7B9F6 /* ViewController.h */,
-				70C3FEC22076709800E7B9F6 /* ViewController.m */,
-				70C3FEC42076709800E7B9F6 /* Main.storyboard */,
+				702C8836207EFE9E00903EC1 /* OCSDNavController.h */,
+				702C8837207EFE9E00903EC1 /* OCSDNavController.m */,
+				702C8839207EFEDC00903EC1 /* OCSDTabBarController.h */,
+				702C883A207EFEDC00903EC1 /* OCSDTabBarController.m */,
 				70C3FEC72076709800E7B9F6 /* Assets.xcassets */,
+				70C3FEC42076709800E7B9F6 /* Main.storyboard */,
 				70C3FEC92076709800E7B9F6 /* LaunchScreen.storyboard */,
-				70C3FECC2076709800E7B9F6 /* Info.plist */,
 				70C3FECD2076709800E7B9F6 /* main.m */,
+				702C882F207EF7DC00903EC1 /* OCStudyPrefixHeader.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -142,6 +170,10 @@
 		7003578A207C569A00F9449D /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				702C883D207F031F00903EC1 /* APPMacros.h */,
+				702C883E207F037100903EC1 /* NotificationMacros.h */,
+				702C883F207F039600903EC1 /* UtilsMacros.h */,
+				702C8840207F042C00903EC1 /* ColorMacros.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -165,6 +197,37 @@
 			children = (
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		702C8823207EF16B00903EC1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				702C8825207EF1A700903EC1 /* OCSDBaseVC.h */,
+				702C8826207EF1A700903EC1 /* OCSDBaseVC.m */,
+				702C8828207EF21D00903EC1 /* OCSDBaseTabBarController.h */,
+				702C8829207EF21D00903EC1 /* OCSDBaseTabBarController.m */,
+				702C882B207EF25900903EC1 /* OCSDBaseNavController.h */,
+				702C882C207EF25900903EC1 /* OCSDBaseNavController.m */,
+				702C8830207EFAE100903EC1 /* OCSDBaseModel.h */,
+				702C8831207EFAE100903EC1 /* OCSDBaseModel.m */,
+				702C8833207EFB3600903EC1 /* OCSDBaseContainerVC.h */,
+				702C8834207EFB3600903EC1 /* OCSDBaseContainerVC.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		702C8824207EF17400903EC1 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		702C882E207EF78800903EC1 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Info;
 			sourceTree = "<group>";
 		};
 		70C3FEB22076709800E7B9F6 = {
@@ -192,6 +255,7 @@
 		70C3FEBD2076709800E7B9F6 /* OCStudyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				702C882E207EF78800903EC1 /* Info */,
 				70035789207C565600F9449D /* Vender */,
 				70035788207C564C00F9449D /* Resource */,
 				70035787207C561B00F9449D /* Other */,
@@ -426,7 +490,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C3FEC32076709800E7B9F6 /* ViewController.m in Sources */,
+				702C8835207EFB3600903EC1 /* OCSDBaseContainerVC.m in Sources */,
+				702C882A207EF21D00903EC1 /* OCSDBaseTabBarController.m in Sources */,
+				702C8838207EFE9E00903EC1 /* OCSDNavController.m in Sources */,
+				702C8832207EFAE200903EC1 /* OCSDBaseModel.m in Sources */,
+				702C8827207EF1A700903EC1 /* OCSDBaseVC.m in Sources */,
+				702C883B207EFEDC00903EC1 /* OCSDTabBarController.m in Sources */,
+				702C882D207EF25900903EC1 /* OCSDBaseNavController.m in Sources */,
 				70C3FECE2076709800E7B9F6 /* main.m in Sources */,
 				70C3FEC02076709800E7B9F6 /* AppDelegate.m in Sources */,
 			);
@@ -594,7 +664,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5ETWVUWDJ;
-				INFOPLIST_FILE = OCStudyDemo/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCStudyDemo/Other/OCStudyPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/OCStudyDemo/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OCStudyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -609,7 +681,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5ETWVUWDJ;
-				INFOPLIST_FILE = OCStudyDemo/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCStudyDemo/Other/OCStudyPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/OCStudyDemo/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OCStudyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
